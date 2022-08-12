@@ -1,4 +1,5 @@
 mod enums;
+mod error_handling;
 mod generics;
 mod lifetime;
 mod structs;
@@ -12,7 +13,8 @@ fn main() {
     // lifetime::run();
     // structs::run();
     // enums::run();
-    traits::run();
+    // traits::run();
+    error_handling::run();
     // vars::sub_a::func_a();
     // vars::sub_b::func_b();
 }
